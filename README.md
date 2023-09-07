@@ -1,2 +1,2 @@
 # TypeScriptPractice
-Complete Repo Related to TypeScript
+Complete Repo Related to TypeScript Lectures
