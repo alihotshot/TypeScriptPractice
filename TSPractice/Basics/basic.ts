@@ -1,14 +1,35 @@
-/**** WHY TypeScript ****
+/***WHY TypeScript & Variables: https://chat.openai.com/share/7b44103d-fce9-442b-93b7-645f08c2d54f */
 
-- Static Typing: TypeScript introduces static typing to JavaScript. 
-This means that you can explicitly specify the types of variables, function parameters, 
-and return values. This helps catch type-related errors at compile-time rather than runtime, 
-making your code more robust and easier to maintain.
+let old_age: number = 28
+const old_id: number = 53419
+const old_name: string = 'Ali Haider'
+let old_city: any = 'Rawalpindi'
+let result = `Hello my name is ${old_name} and Age is ${old_age}`
 
-- Improved Code Quality: With static typing, TypeScript can help you write cleaner 
-and more self-documenting code.
+// Type Inference
+let new_age = 30
+const new_id = 25626
 
-- Cross-Platform Development: TypeScript can be used for both front-end and back-end development. You can 
-write TypeScript for browser-based applications (client-side) and Node.js applications (server-side) with ease.*/
+// Type Annotation
+let _age: number = 32
+const _id: number = 53494
 
-console.log('Hello')
+// TS Union Types
+let signal: string | boolean
+signal = 'Red'
+signal = 'Green'
+signal = true
+
+// Type Aliases - Custom Types for Variables
+type Student = {
+  name: string
+  age: number
+  marks: string | number
+}
+
+let ali: Student = { name: 'Ali Haider', age: 28, marks: '3.8 CGPA' }
+
+// typeof - You can check the data type
+console.log(typeof _age)
+
+/* Operators in TS: https://chat.openai.com/share/9591aed1-a747-47ad-a70a-054c831997ea */
