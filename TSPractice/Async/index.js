@@ -8,6 +8,9 @@
 - Attend Event
 */
 console.log('I leave my car at 09:00 in Workshop...');
+setTimeout(function () {
+    console.log();
+});
 console.log('Your Dress is Ready');
 console.log('Attend Event');
 /* Callbacks */

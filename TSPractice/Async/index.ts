@@ -1,9 +1,10 @@
 //Promises Notes Link: https://docs.google.com/document/d/19hpL-Dw4JgE-Dn1h_yc22rlJgJp_l42U8o4Wr0-0nKw/edit?usp=sharing
 
-/* Class Practice */
+/************************* Class Practice */
 
 //Normal Execution
 // Weekend Example
+
 /* 
 - Car Maintenance
 - Laundary Dress
@@ -13,11 +14,18 @@
 console.log('I leave my car at 09:00 in Workshop...')
 setTimeout(() => {
   console.log()
-})
+}, 1000)
 console.log('Your Dress is Ready')
 console.log('Attend Event')
 
-/* Callbacks */
+// Now do above example by using Call Back Function
+
+function carMaintenance(){
+  console.log('Leave your car in Workshop...');
+  
+}
+
+/* ****************************** Callbacks */
 
 function doSomething(Callbacks) {
   console.log('Doing Somethings ...')
