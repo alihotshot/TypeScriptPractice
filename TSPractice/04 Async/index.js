@@ -29,7 +29,11 @@
 //   console.log('Do Something Else ...')
 // }
 // doSomething(doSomethingElse)
+
+
 /* ******************************  Promises */
+
+
 function carMaintenanceNew() {
     console.log('Leave my car at 09:00');
     var promise = new Promise(function (resolve, reject) {
